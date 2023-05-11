@@ -65,7 +65,7 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
           </a>
         </li>
         <li>
-          <a href="student.php">
+          <a href="students.php">
             <i class='bx bx-box' ></i>
             <span class="links_name">Students</span>
           </a>
