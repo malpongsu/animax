@@ -1,5 +1,5 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','raspberry_rfid_db');
+$conn = mysqli_connect('mysql','localhost','rfid_admin','rfid_system','raspberry_pi_rfid_system');
 
 ?>
