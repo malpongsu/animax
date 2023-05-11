@@ -9,7 +9,7 @@ if(!isset($_SESSION['user_name'])){
 
 
 //Grab all the student from our database
-$student = $database->select("student", [
+$students = $database->select("students", [
     'id',
     'name',
     'rfid_uid'
@@ -142,7 +142,7 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
               <tbody>
                   <?php
                       //Loop through all our available student
-                      foreach($student as $user) {
+                      foreach($students as $user) {
                           echo '<tr>';
                           echo '<td scope="row">' . $user['name'] . '</td>';
 
