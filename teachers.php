@@ -37,7 +37,7 @@ if(!isset($_SESSION['user_name'])){
           </a>
         </li>
         <li>
-          <a href="student.php" data-target="student">
+          <a href="students.php" data-target="student">
             <i class='bx bx-box' ></i>
             <span class="links_name">Students</span>
           </a>
